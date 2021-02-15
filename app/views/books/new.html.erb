@@ -1,0 +1,11 @@
+<h4>Book was successfully created.</h4>
+  <p>
+    <b>Title:</b>
+    <%= @book.title %>
+  </p>
+  <p>
+  <b>Body:</b>
+  <%= @book.body %>
+  </p>
+  <td><%=link_to 'Edit',"/books:id/edit" %></td>|
+  <td><%=link_to 'Back',"/books"%></td>
